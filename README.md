@@ -30,5 +30,14 @@ This project demonstrates how to host a dynamic web application using Flask on a
    ```bash
    git clone https://github.com/username/repo-name.git
    cd repo-name
+2. Modify the variables.tf and terraform.tfvars to set desired parameters
+3. Initialize the terraform.
+   ```hcl
+   terraform init
+4. Validate, plan, and then apply.
+   ```hcl
+   terraform validate
+   terraform plan
+   terraform apply -auto-approve # -auto-approve avoids the manual step of typing "yes".
 
 
